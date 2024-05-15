@@ -1,0 +1,131 @@
+/* App.css */
+
+/* Styles Globaux */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+h1, h2 {
+  margin: 0;
+}
+
+/* Styles de l'En-tête */
+.en-tete-app {
+  background-color: #4d3319;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.en-tete-app h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+/* Styles du Contenu */
+.contenu-app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  min-height: 100vh;
+}
+
+.section-meteo, .section-formulaire {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  padding: 20px;
+  width: 45%;
+}
+
+.section-meteo {
+  background-color: #f5f5f5;
+}
+
+.en-tete-formulaire {
+  margin-bottom: 15px;
+}
+
+/* Styles du Formulaire */
+.formulaire-coordonnees {
+  display: flex;
+  flex-direction: column;
+}
+
+.item-formulaire {
+  margin-bottom: 15px;
+}
+
+.item-formulaire label {
+  font-weight: bold;
+}
+
+.item-formulaire input[type="text"] {
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #4d3319;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #664d33;
+}
+
+/* Styles des Infos Météo */
+.infos-meteo {
+  text-align: center;
+}
+
+.colonnes-meteo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.colonne-meteo {
+  flex: 1;
+}
+
+.item-meteo {
+  margin-bottom: 15px;
+}
+
+.item-meteo p {
+  margin: 0;
+}
+
+.item-meteo icone img {
+  width: 80px;
+  height: 80px;
+}
+
+/* Couleurs de Fond */
+.froid-bg {
+  background-color: #666;
+}
+
+.frais-bg {
+  background-color: #a52a2a;
+}
+
+.doux-bg {
+  background-color: #d2b48c;
+}
+
+.chaud-bg {
+  background-color: #fff;
+}
